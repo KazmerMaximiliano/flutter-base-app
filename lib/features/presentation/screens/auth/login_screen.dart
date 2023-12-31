@@ -129,7 +129,7 @@ Future<void> signIn({
     ref.read(isAuthenticatedProvider.notifier).setIsAuthenticated(true);
 
     if (!context.mounted) return;
-    context.go('/user');
+    context.go('/home');
   } else if (signIn.isLeft()) {
     SnackBar snackBar = const SnackBar(
       content: Text(

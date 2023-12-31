@@ -3,6 +3,7 @@ import 'package:flutterbaseapp/features/presentation/layouts/auth_layout.dart';
 import 'package:flutterbaseapp/features/presentation/layouts/main_layout.dart';
 import 'package:flutterbaseapp/features/presentation/screens/auth/login_screen.dart';
 import 'package:flutterbaseapp/features/presentation/screens/auth/register_screen.dart';
+import 'package:flutterbaseapp/features/presentation/screens/home/home_screen.dart';
 import 'package:flutterbaseapp/features/presentation/screens/splash/splash_screen.dart';
 import 'package:flutterbaseapp/features/presentation/screens/user/user_screen.dart';
 import 'package:go_router/go_router.dart';
@@ -39,6 +40,17 @@ class LoginRoute extends GoRouteData {
   @override
   Widget build(BuildContext context, GoRouterState state) {
     return const AuthLayout(child: LoginScreen());
+  }
+}
+
+@TypedGoRoute<HomeRoute>(path: HomeRoute.path)
+class HomeRoute extends GoRouteData {
+  const HomeRoute();
+  static const path = '/home';
+
+  @override
+  Widget build(BuildContext context, GoRouterState state) {
+    return const MainLayout(child: HomeScreen());
   }
 }
 

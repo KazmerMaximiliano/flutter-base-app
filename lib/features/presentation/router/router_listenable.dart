@@ -27,14 +27,14 @@ class RouterListenable extends _$RouterListenable implements Listenable {
     final isSplash = state.uri.toString() == SplashRoute.path;
 
     if (isSplash) {
-      return _isAuthenticated ? UserRoute.path : LoginRoute.path;
+      return _isAuthenticated ? HomeRoute.path : LoginRoute.path;
     }
 
     final isLoggingIn = state.uri.toString() == LoginRoute.path;
-    if (isLoggingIn) return _isAuthenticated ? UserRoute.path : null;
+    if (isLoggingIn) return _isAuthenticated ? HomeRoute.path : null;
 
     final isReggistering = state.uri.toString() == RegisterRoute.path;
-    if (isReggistering) return _isAuthenticated ? UserRoute.path : null;
+    if (isReggistering) return _isAuthenticated ? HomeRoute.path : null;
 
     return _isAuthenticated ? null : SplashRoute.path;
   }

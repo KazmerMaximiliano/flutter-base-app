@@ -24,7 +24,7 @@ class UserScreen extends ConsumerWidget {
               padding: const EdgeInsets.symmetric(vertical: 8.0),
               child: Center(
                 child: Text(
-                  'Bienvenido: ',
+                  'Bienvenido: ${ModalRoute.of(context)!.settings.name}',
                   style: Theme.of(context).textTheme.titleSmall,
                 ),
               ),

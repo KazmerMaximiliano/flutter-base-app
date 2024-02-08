@@ -11,15 +11,11 @@ class RegisterUseCase {
   final IAuthPresenter _repository;
 
   Future<Either<CustomError, Auth>> call({
-    required String name,
     required String email,
     required String password,
-    required String passwordConfirmation,
   }) async =>
       await _repository.register(
-        name: name,
         email: email,
         password: password,
-        passwordConfirmation: passwordConfirmation,
       );
 }

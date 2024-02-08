@@ -1,0 +1,175 @@
+1. Aceptación del Acuerdo de Términos de Uso.
+Al crear un usuario o logearte en Smartzone, ya sea a través de un dispositivo
+móvil, aplicación móvil o computadora, aceptas estar sujeto a los presentes Términos
+y Condiciones, a nuestras Reglas de la Comunidad, y a nuestras Políticas de Privacidad
+y de Seguridad. De no aceptarse los presentes Términos y Condiciones, no podrás ingresar
+a la aplicación ni participar de cada zona inteligente.
+Asimismo, los presentes términos y condiciones podrán sufrir modificaciones y/o
+actualizaciones, del mismo modo que el servicio brindado puede ser también actualizado.
+Cualquier modificación a las presentes políticas y/o actualización del servicio brindado
+por Smartzone le será debidamente notificado a sus usuarios.
+La versión más reciente de este Acuerdo se publicará en el Servicio en Configuración y
+también en https://www.smartzone-app.com, siendo deber del usuario verificar regularmente
+la versión más reciente. Si los cambios introducidos incluyen cambios materiales que
+afectan tus derechos u obligaciones, te notificaremos los cambios con anticipación por
+medios razonables, que podrían incluir notificaciones a través del Servicio o por correo
+electrónico. Si continúas utilizando el Servicio después de que los cambios entren en
+vigencia, se entenderá que aceptas las modificaciones y/o actualizaciones introducidas.
+
+2. Creación de un usuario
+Únicamente pueden crear un usuario o loggearse en Smartzone a través de Facebook, y
+participar de cada zona inteligente, las personas mayores de dieciocho años con capacidad
+para contratar en los términos del Código Civil y Comercial de la Nación.
+Estará prohibido la creación de perfiles a aquellas personas que posean antecedentes
+penales vinculados con delitos contra la integridad sexual penalizados por el Código
+Penal Argentino.
+Al crear un perfil en Smartzone, cada usuario se compromete a cumplir con los presentes
+Términos y Condiciones y con todas las leyes, normas y reglamentos locales, estatales,
+nacionales e internacionales aplicables.
+
+3. Acceso a la aplicación.
+Para utilizar Smartzone, puedes iniciar sesión creando un nuevo usuario y perfil, o
+bien a través de tu inicio de sesión de Facebook. Si lo haces, nos autorizas a acceder
+y usar cierta información de la cuenta de Facebook que incluye, entre otros, tu
+perfil público e información sobre amigos que compartes en común con otros usuarios
+de Smartzone que han dado permiso a Facebook para usar tus datos personales o
+información. Para obtener más información sobre la información y datos personales
+que recopilamos y cómo la usamos, consulta nuestra Política de Privacidad.
+
+4. Modificación del Servicio y Terminación.
+Smartzone siempre se esfuerza por mejorar el Servicio y brindarte funcionalidades
+adicionales que encontrarás interesantes y útiles. Esto significa que podemos agregar
+nuevas funciones o mejoras de productos de vez en cuando, así como eliminar algunas
+funciones. Incluso podemos suspender el Servicio por completo, en cuyo caso te
+notificaremos con anticipación a menos que circunstancias atenuantes, como problemas
+de seguridad o seguridad, nos impidan hacerlo. Podés cancelar tu usuario en cualquier
+momento, siguiendo las instrucciones en “Configuración” en el Servicio o enviando un
+correo a contacto@smartzone-app.com.
+Smartzone puede cancelar tu usuario en cualquier momento sin previo aviso si cree
+que has violado este Acuerdo o has incurrido en violación alguna a nuestras Reglas
+de la Comunidad y Políticas de Seguridad.
+
+5. Seguridad e interacciones con otros usuarios.
+Aunque Smartzone se esfuerza por fomentar una buena experiencia de usuario, no
+es responsable de la conducta de ningún usuario dentro o fuera del Servicio. 
+Al crear un usuario en la aplicación, cada participante se obliga a observar
+las Reglas de la Comunidad y Políticas de Seguridad y Privacidad. Smartzone no
+realiza verificaciones de antecedentes penales en sus usuarios.
+Cada usuario es responsable de las interacciones con los demás participantes de
+cada zona inteligente, debiendo adoptar las medidas de seguridad necesarias
+recurriendo de ser necesario a las herramientas de seguridad provistas por
+Smartzone indicadas en nuestras Políticas de Seguridad.
+
+6. Prohibiciones vinculadas con el uso del servicio.
+Smartzone te otorga una licencia personal y revocable para acceder y utilizar el
+Servicio. Esta licencia tiene el único propósito de permitirte usar y disfrutar los
+beneficios del Servicio según lo previsto por Smartzone y permitido por este
+Acuerdo. Por lo tanto, aceptas no:
+
+    . Usar el Servicio o cualquier contenido en el Servicio para fines comerciales sin nuestro consentimiento por escrito.
+    . Copiar, modificar, transmitir, crear obras derivadas de, hacer uso o reproducir de cualquier manera cualquier material con derechos de autor, imágenes, marcas registradas, nombres comerciales, marcas de servicio u otra propiedad intelectual, contenido o información de propiedad accesible a través del Servicio sin el consentimiento previo por escrito de Smartzone
+    . Usar el Servicio de cualquier manera que pueda interferir, interrumpir o afectar negativamente el Servicio o los servidores o redes conectados al Servicio.
+    . Cargar virus u otro código malicioso o comprometer la seguridad del Servicio.
+    . Falsificar encabezados o manipular identificadores para disfrazar el origen de cualquier información transmitida a través del Servicio.
+    . “Enmarcar” o “reflejar” cualquier parte del Servicio sin la autorización previa por escrito de Smartzone.
+    . Usar metaetiquetas o códigos u otros dispositivos que contengan alguna referencia a Smartzone o al Servicio (o cualquier marca registrada, nombre comercial, marca de servicio, logotipo o lema de Smartzone) para dirigir a cualquier persona a cualquier otro sitio web para cualquier propósito.
+    . Modificar, adaptar, sublicenciar, traducir, vender, aplicar ingeniería inversa, descifrar, descompilar o desarmar cualquier parte del Servicio, o hacer que otros lo hagan.
+    . Usar o desarrollar aplicaciones de terceros que interactúen con el Servicio o el Contenido o información de otros usuarios sin nuestro consentimiento por escrito.
+    . Usar, acceder o publicar la interfaz de programación de la aplicación Smartzone sin nuestro consentimiento por escrito.
+    . Sondear, escanear o probar la vulnerabilidad de nuestro Servicio o de cualquier sistema o red.
+    . Alentar o promover cualquier actividad que viole este Acuerdo, las Reglas de la Comunidad, y las Políticas de Seguridad y Privacidad Anexas al presente.
+
+La Compañía puede investigar y promover cualquier acción judicial disponible en
+respuesta a usos ilegales y / o no autorizados del Servicio, incluida la cancelación
+de tu usuario.
+Cualquier software que te proporcionemos puede descargar e instalar
+automáticamente actualizaciones u otras características nuevas. Es posible que
+puedas ajustar estas descargas automáticas a través de la configuración de su
+dispositivo.
+
+7. Derechos que le otorgas a Smartzone.
+Al crear un usuario en Smartzone –ya sea ingresando desde Facebook o mediante
+la creación de un perfil nuevo desde la aplicación- Smartzone podrá utilizar los
+datos e información proporcionada conforme los alcances y los destinos indicados
+en nuestra Política de Privacidad.
+Al generar un usuario en la aplicación, se te informará debidamente de la
+información y datos que te será requerida, así de los usos y tratamientos que se le
+dará a tus datos.
+Para poder utilizar la aplicación, deberás leer e informarte previamente de
+nuestras Políticas de Privacidad y aceptar las mismas, comprometiéndote a brindar
+datos ciertos y fidedignos. Asimismo, deberás brindar tu consentimiento para el
+uso de tus datos así como para que los mismos sean compartidos conforme los
+destinos informados.
+
+8. Reglas de la comunidad.
+Cada usuario deberá observar y respetar las Reglas de la Comunidad anexas al
+presente, debiendo ajustar su conducta a las normas allí dispuestas.
+Al crear un perfil en la aplicación, cada usuario deberá informarse y aceptar
+las Reglas de la Comunidad de Smartzone.
+Smartzone se reserva el derecho de investigar y / o cancelar su usuario y perfil si
+has violado el presente Acuerdo y/o las Reglas de la Comunidad, si has utilizado
+indebidamente el Servicio o te has comportado de una manera que Smartzone
+considera inapropiada o ilegal, incluidas acciones o comunicaciones que ocurren
+dentro o fuera del servicio.
+
+9. Contenido de otros usuarios
+Aunque Smartzone se reserva el derecho de revisar y eliminar todo contenido que
+viole nuestros Términos y Condiciones, dicho contenido es responsabilidad
+exclusiva del usuario que lo publica, y Smartzone no puede garantizar que todo el
+contenido cumpla con las presentes normas.
+Asimismo, se les recuerda a los usuarios que ante el supuesto que detectaren
+contenido y/o acción alguna que viole los presentes Términos y
+Condiciones y/o Reglas de la Comunidad, podrán informarlo debidamente a través
+de nuestra página de contacto.
+
+10. Disponibilidad y servicio.
+Smartzone proporcionará el servicio en las mejores condiciones posibles, sin
+garantizar al usuario su calidad satisfactoria, ni que el servicio sea brindado en
+forma ininterrumpida o libre de errores.
+
+11. Responsabilidad
+Smartzone no será responsable civil y/o penalmente por cualquier daño
+ocasionado a sus usuarios o a terceras personas como consecuencia del
+uso indebido de la aplicación y/o con fines penados por la ley y/o en
+violación a los presentes Términos y Condiciones y/o Reglas de la
+Comunidad y/o Políticas de Seguridad y Privacidad.
+Del mismo modo, el usuario se obliga a mantener indemne a Smartzone frente a
+cualquier reclamo judicial y/o extrajudicial y/o administrativo derivados de daños
+ocasionados a otros usuarios y/o terceras personas como consecuencia del uso
+indebido y/o con fines ilícitos de la aplicación, debiendo afrontar el usuario en
+forma exclusiva los gastos y costos judiciales y/o extrajudiciales que demande su
+defensa propia y la de Smartzone.
+
+12. Competencia y Ley Aplicable
+Las partes acuerdan someterse a la jurisdicción de los Tribunales Ordinarios del
+Departamento Judicial de Mar del Plata y/o Tribunal Arbitral del Colegio de
+Abogados del Departamento Judicial de Mar del Plata para cualquier cuestión que
+se plantee entre las mismas con motivo del presente acuerdo, renunciando
+expresamente a cualquier otro fuero o jurisdicción.
+Asimismo, las partes convienen expresamente que la ley aplicable será la
+legislación vigente de la República Argentina.
+
+13. Coexistencia con demás Políticas, Reglas y Anexos
+Los presentes Términos y Condiciones, Políticas de Privacidad, y Reglas de la
+Comunidad constituyen el conjunto de normas que rigen tu relación con Smartzone
+con respecto al uso del servicio.
+Si alguna disposición de la presente se considera inválida, el resto de las Políticas,
+reglas y normas continuarás en pleno vigor y efecto.
+
+14. Indemnización
+Aceptas indemnizar y mantener a Smartzone libre de y contra todos los daños,
+pérdidas y gastos de cualquier tipo (incluidos los honorarios y costos razonables
+de abogados) que surjan de o estén relacionados con:
+    (1) tu incumplimiento a los Convenios o cualquiera de ellos;
+    (2) cualquier Contenido de Usuario que publiques o con el que contribuyas;
+    (3) cualquier actividad en la que participes en o a través del Servicio de Smartzone; y
+    (4) si infringes de cualquier ley o los derechos de un tercero.
+
+15. Contactanos
+Si tuvieras alguna pregunta sobre el Servicio de Smartzone o los Convenios, por
+favor comunícate con Servicio al Cliente de Smartzone enviando un correo
+a contacto@smartzone-app.com
+
+Gracias por leer nuestros Términos. ¡Esperamos que disfrutes de Smartzone!
+
+Entidad contratante: Smart Zona APP S.A.S

@@ -1,10 +1,10 @@
 name: flutterbaseapp
 description: A new Flutter project.
-publish_to: 'none'
+publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.1.2 <4.0.0'
+  sdk: ">=3.1.2 <4.0.0"
 
 dependencies:
   dartz: ^0.10.1
@@ -49,6 +49,29 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    # - assets/
+    - assets/
+    - assets/fonts/mazzardh/
+    - assets/fonts/open_sans/
+    - assets/icon/
+    - assets/legales/
+    - assets/loading/
+    - assets/logo/
+    - assets/lottie/
+    - assets/menu/
+    - assets/redes/
     - .env
 
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/open_sans/OpenSans-Regular.ttf
+        - asset: assets/fonts/open_sans/OpenSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/open_sans/OpenSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/open_sans/OpenSans-Italic.ttf
+          style: italic
+    - family: Mazzard
+      fonts:
+        - asset: assets/fonts/mazzardh/MazzardH-SemiBold.ttf
+          weight: 600

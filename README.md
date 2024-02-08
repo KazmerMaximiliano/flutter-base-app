@@ -3,5 +3,8 @@
 ## Pre Build Command
 
 ```
-flutter pub run build_runner watch -d
+// deprecated
+flutter pub run build_runner watch -d 
+// use this
+dart run build_runner watch -d 
 ```

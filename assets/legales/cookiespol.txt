@@ -1,0 +1,70 @@
+
+Introducción
+Smart Zone cuida y protege de su privacidad. Nuestro principal objetivo es brindar un servicio de excelencia, para que usted mejore su experiencia en cada Smart Zone que visite. En cada pasado que damos, pensamos en usted y es por eso que agradecemos que confíe en nosotros cuando nos proporciona su información, y queremos contarle que para nosotros es muy importante su cuidado.
+Esta Política de cookies explica qué son las cookies, qué tipos de cookies se colocan en su dispositivo cuando visita nuestro sitio web y cómo las usamos.
+Esta Política de cookies no aborda cómo tratamos su información personal en general. Para obtener más información sobre cómo procesamos su información personal, consulte nuestra Política de privacidad
+
+¿Qué son las cookies?
+Las cookies son pequeños archivos de texto que se envían o acceden desde su navegador web o la memoria de su dispositivo. Una cookie generalmente contiene el nombre del dominio (ubicación de Internet) desde el cual se originó la cookie, la "vida útil" de la cookie (es decir, cuando caduca) y un número único generado al azar o un identificador similar. Una cookie también puede contener información sobre su dispositivo, como la configuración del usuario, el historial de navegación y las actividades realizadas mientras utiliza nuestros servicios.
+
+¿Existen diferentes tipos de cookies?
+
+COOKIES DE ORIGEN Y DE TERCEROS
+Hay cookies de origen y cookies de terceros. Las cookies de origen se colocan en su dispositivo directamente por nosotros. Por ejemplo, utilizamos cookies propias para adaptar nuestro sitio web a las preferencias de idioma de su navegador y comprender mejor su uso de nuestro sitio web. Nuestros socios y proveedores de servicios colocan cookies de terceros en su dispositivo. Por ejemplo, utilizamos cookies de terceros para medir números de usuarios en nuestro sitio web o para permitirle compartir contenido con otros a través de plataformas de redes sociales.
+
+COOKIES DE SESIÓN Y PERSISTENTES
+Hay cookies de sesión y cookies persistentes. Las cookies de sesión solo duran hasta que cierre su navegador. Utilizamos cookies de sesión por una variedad de razones, que incluyen aprender más sobre el uso de nuestro sitio web durante una sola sesión del navegador y ayudarlo a usar nuestro sitio web de manera más eficiente. Las cookies persistentes tienen una vida útil más larga y no se eliminan automáticamente cuando cierra su navegador. Estos tipos de cookies se utilizan principalmente para ayudarlo a iniciar sesión rápidamente en nuestro sitio web nuevamente y con fines analíticos.
+
+¿Qué pasa con otras tecnologías de seguimiento, como balizas web?
+Otras tecnologías, como balizas web (también llamadas etiquetas de píxeles o gifs transparentes), URL de seguimiento o kits de desarrollo de software (SDK) se utilizan para fines similares. Las balizas web son pequeños archivos gráficos que contienen un identificador único que nos permite reconocer cuándo alguien visitó nuestro servicio o abrió un correo electrónico que le enviamos. Las URL de seguimiento son enlaces personalizados que nos ayudan a comprender de dónde proviene el tráfico a nuestras páginas web. Los SDK son pequeñas piezas de código incluidas en las aplicaciones, que funcionan como cookies y balizas web.
+Para simplificar, también nos referimos a estas tecnologías como "cookies" en esta Política de cookies.
+
+¿Para qué utilizamos las cookies?
+Al igual que la mayoría de los proveedores de servicios en línea, utilizamos cookies para proporcionar, proteger y mejorar nuestros servicios, incluso recordando sus preferencias, reconociéndolo cuando visita nuestro sitio web y personalizando y adaptando anuncios a sus intereses. Para lograr estos propósitos, también podemos vincular información de cookies con otra información personal que tenemos sobre usted.
+Cuando visita nuestro sitio web, se pueden configurar algunos o todos los siguientes tipos de cookies en su dispositivo.
+
+. Cookies esenciales del sitio web
+Estas cookies son estrictamente necesarias para proporcionarle servicios disponibles a través de nuestro sitio web y para utilizar algunas de sus funciones, como el acceso a áreas seguras.
+
+. Cookies analíticas
+Estas cookies nos ayudan a comprender cómo se utiliza nuestro sitio web, cuán efectivas son las campañas de marketing y nos ayudan a personalizar y mejorar nuestros sitios web para usted.
+
+. Cookies publicitarias
+Estas cookies se utilizan para hacer que los mensajes publicitarios sean más relevantes para usted. Realizan funciones como evitar que el mismo anuncio vuelva a aparecer continuamente, asegurando que los anuncios se muestren correctamente para los anunciantes, seleccionando anuncios basados ​​en sus intereses y midiendo la cantidad de anuncios mostrados y su rendimiento, como cuántas personas hicieron clic en un anuncio determinado .
+
+. Cookies de redes sociales.
+Estas cookies se utilizan para permitirle compartir páginas y contenido que le parezca interesante en nuestro sitio web a través de redes sociales de terceros y otros sitios web. Estas cookies también se pueden usar con fines publicitarios.
+
+¿Cómo puedes controlar las cookies?
+Hay varias opciones de administración de cookies disponibles para usted. Tenga en cuenta que los cambios que realice en sus preferencias de cookies pueden hacer que navegar por nuestro sitio web sea una experiencia menos satisfactoria. En algunos casos, incluso es posible que no pueda utilizar todo o parte de nuestro sitio.
+
+CONTROLES DE NAVEGADOR Y DISPOSITIVOS
+Algunos navegadores web proporcionan configuraciones que le permiten controlar o rechazar cookies o alertarlo cuando se coloca una cookie en su computadora. El procedimiento para administrar cookies es ligeramente diferente para cada navegador de Internet. Puede verificar los pasos específicos en el menú de ayuda de su navegador en particular.
+También puede restablecer los identificadores de dispositivo activando la configuración adecuada en su dispositivo móvil. El procedimiento para administrar identificadores de dispositivo es ligeramente diferente para cada dispositivo. Puede verificar los pasos específicos en el menú de ayuda o configuración de su dispositivo en particular.
+
+HERRAMIENTAS DE PUBLICIDAD BASADAS EN INTERESES
+Puede optar por no ver publicidad en línea basada en intereses de las empresas. La exclusión voluntaria no significa que no verá publicidad, significa que no verá publicidad personalizada de las compañías que participan en los programas de exclusión voluntaria. Además, si elimina las cookies en su dispositivo después de optar por no participar, deberá optar por no hacerlo nuevamente.
+
+Cookies sociales
+Para permitirle compartir contenido en las redes sociales, algunas funciones de este sitio web utilizan complementos de redes sociales (por ejemplo, los botones "Compartir" de Twitter ™ o "in" de LinkedIn ™). Dependiendo de la configuración de su cuenta de redes sociales, automáticamente recibimos información de la plataforma de redes sociales cuando utiliza el botón correspondiente en nuestro sitio web.
+Para obtener más información sobre las cookies de redes sociales, le sugerimos que consulte la política de cookies y la política de privacidad de su plataforma de redes sociales.
+
+Cookies Flash de Adobe Flash Player ™
+Adobe Flash Player ™ es una aplicación para ver e interactuar con contenido dinámico utilizando la plataforma Flash. Flash (y aplicaciones similares) utilizan una tecnología similar a las cookies para memorizar parámetros, preferencias y usos de este contenido. Sin embargo, Adobe Flash Player gestiona esta información y sus elecciones a través de una interfaz separada de la proporcionada por su navegador.
+Si es probable que su terminal muestre contenido desarrollado utilizando la plataforma Flash, le sugerimos que acceda a sus herramientas de administración de cookies Flash directamente a través de https://www.adobe.com .
+
+Cookies de Google ™
+COSAS QUE GOOGLE QUIERE ASEGURARSE DE QUE SEPA SOBRE LA TECNOLOGÍA DE RECOPILACIÓN DE DATOS DE GOOGLE
+COOKIES DE LA API DE GOOGLE ™ MAPS
+Algunas características de nuestro sitio web y algunos servicios de Smart Zone se basan en el uso de las Cookies API de Google ™ Maps. Dichas cookies se almacenarán en su dispositivo.
+Al navegar por este sitio web y utilizar los servicios que se basan en las cookies de la API de Google Maps, usted acepta el almacenamiento, la recopilación de dichas cookies en su dispositivo y el acceso, uso y uso compartido por parte de Google de los datos recopilados.
+Google ™ administra la información y sus elecciones relacionadas con las cookies de la API de Google Maps a través de una interfaz separada de la proporcionada por su navegador. Para obtener más información, consulte https://www.google.com/policies/technologies/cookies/ .
+
+GOOGLE ANALITICO
+Utilizamos Google Analytics, que es un servicio de Google que utiliza cookies y otras tecnologías de recopilación de datos para recopilar información sobre su uso del sitio web y los servicios con el fin de informar las tendencias del sitio web.
+Puede optar por no participar en Google Analytics visitando www.google.com/settings/ads o descargando el complemento de exclusión voluntaria de Google Analytics en https://tools.google.com/dlpage/gaoptout .
+
+¿Cómo contactarnos?
+Si tiene preguntas acerca de esta Política de cookies, aquí le explicamos cómo puede comunicarse con nosotros:
+Desde nuestro correo: contacto@smartzone-app.com
+Whats app: + 54 9 0223 156000555

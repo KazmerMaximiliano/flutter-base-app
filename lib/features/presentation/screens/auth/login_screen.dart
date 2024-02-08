@@ -4,6 +4,7 @@ import 'package:flutterbaseapp/features/data/models/auth_model.dart';
 import 'package:flutterbaseapp/features/domain/services/shared_preferences.dart';
 import 'package:flutterbaseapp/features/domain/usecases/auth/signin_use_case.dart';
 import 'package:flutterbaseapp/features/presentation/providers/auth_providers.dart';
+import 'package:flutterbaseapp/features/presentation/router/routes.dart';
 import 'package:get_it/get_it.dart';
 import 'package:go_router/go_router.dart';
 
@@ -52,13 +53,10 @@ class LoginScreen extends ConsumerWidget {
                   label: Text('Password'),
                 ),
                 obscureText: true,
-                onChanged:
-                    ref.read(authPasswordProvider.notifier).changePassword,
+                onChanged: ref.read(authPasswordProvider.notifier).changePassword,
                 autovalidateMode: AutovalidateMode.onUserInteraction,
                 validator: (value) {
-                  return ref
-                      .read(authPasswordProvider.notifier)
-                      .isValidPassword();
+                  return ref.read(authPasswordProvider.notifier).isValidPassword();
                 },
               ),
             ),
@@ -129,7 +127,7 @@ Future<void> signIn({
     ref.read(isAuthenticatedProvider.notifier).setIsAuthenticated(true);
 
     if (!context.mounted) return;
-    context.go('/home');
+    context.go(HomeRoute.path);
   } else if (signIn.isLeft()) {
     SnackBar snackBar = const SnackBar(
       content: Text(

@@ -10,18 +10,14 @@ class AuthRemoteDatasource extends AuthClient {
   final SecurityDao _securityDao = SecurityDao();
 
   Future<Auth> register({
-    required String name,
     required String email,
     required String password,
-    required String passwordConfirmation,
   }) async {
     Response response = await dio.post(
       '/register',
       data: {
-        'name': name,
         'email': email,
         'password': password,
-        'password_confirmation': passwordConfirmation,
       },
     );
 

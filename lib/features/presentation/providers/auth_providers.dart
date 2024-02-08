@@ -6,26 +6,6 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'auth_providers.g.dart';
 
 @riverpod
-class AuthUserName extends _$AuthUserName {
-  @override
-  String? build() {
-    return null;
-  }
-
-  void changeUserName(String? userName) {
-    state = userName;
-  }
-
-  String? isValidUserName() {
-    if (state == null || state!.isEmpty) {
-      return 'Por favor ingresa tu nombre de usuario';
-    }
-
-    return null;
-  }
-}
-
-@riverpod
 class AuthEmail extends _$AuthEmail {
   @override
   String? build() {
@@ -94,30 +74,6 @@ class AuthPassword extends _$AuthPassword {
 }
 
 @riverpod
-class AuthPasswordConfirmation extends _$AuthPasswordConfirmation {
-  @override
-  String? build() {
-    return null;
-  }
-
-  void changePasswordConfirmation(String? passwordConfirmation) {
-    state = passwordConfirmation;
-  }
-
-  String? isValidPasswordConfirmation() {
-    if (state == null || state!.isEmpty) {
-      return 'Por favor ingresa tu contraseña';
-    }
-
-    if (state != ref.read(authPasswordProvider)) {
-      return 'Las contraseñas no coinciden';
-    }
-
-    return null;
-  }
-}
-
-@riverpod
 class RegisterForm extends _$RegisterForm {
   @override
   GlobalKey<FormState> build() {
@@ -127,13 +83,8 @@ class RegisterForm extends _$RegisterForm {
 
 @riverpod
 bool isValidRegisterForm(IsValidRegisterFormRef ref) {
-  return ref.read(authUserNameProvider.notifier).isValidUserName() == null &&
-      ref.read(authEmailProvider.notifier).isValidEmail() == null &&
-      ref.read(authPasswordProvider.notifier).isValidPassword() == null &&
-      ref
-              .read(authPasswordConfirmationProvider.notifier)
-              .isValidPasswordConfirmation() ==
-          null;
+  return ref.read(authEmailProvider.notifier).isValidEmail() == null &&
+      ref.read(authPasswordProvider.notifier).isValidPassword() == null;
 }
 
 @riverpod

@@ -4,10 +4,8 @@ import 'package:flutterbaseapp/features/domain/entities/auth.dart';
 
 abstract class IAuthPresenter {
   Future<Either<CustomError, Auth>> register({
-    required String name,
     required String email,
     required String password,
-    required String passwordConfirmation,
   });
 
   Future<Either<CustomError, Auth>> signIn({

@@ -14,10 +14,8 @@ class RegisterScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final registerFormKey = ref.watch(registerFormProvider);
 
-    final username = ref.watch(authUserNameProvider);
     final email = ref.watch(authEmailProvider);
     final password = ref.watch(authPasswordProvider);
-    final passwordConfirmation = ref.watch(authPasswordConfirmationProvider);
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 32.0),
@@ -32,22 +30,6 @@ class RegisterScreen extends ConsumerWidget {
               child: Text(
                 'Registrarse',
                 style: Theme.of(context).textTheme.titleLarge,
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 8.0),
-              child: TextFormField(
-                decoration: const InputDecoration(
-                  label: Text('Username'),
-                ),
-                onChanged:
-                    ref.read(authUserNameProvider.notifier).changeUserName,
-                autovalidateMode: AutovalidateMode.onUserInteraction,
-                validator: (value) {
-                  return ref
-                      .read(authUserNameProvider.notifier)
-                      .isValidUserName();
-                },
               ),
             ),
             Padding(
@@ -70,31 +52,10 @@ class RegisterScreen extends ConsumerWidget {
                   label: Text('Password'),
                 ),
                 obscureText: true,
-                onChanged:
-                    ref.read(authPasswordProvider.notifier).changePassword,
+                onChanged: ref.read(authPasswordProvider.notifier).changePassword,
                 autovalidateMode: AutovalidateMode.onUserInteraction,
                 validator: (value) {
-                  return ref
-                      .read(authPasswordProvider.notifier)
-                      .isValidPassword();
-                },
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 8.0),
-              child: TextFormField(
-                decoration: const InputDecoration(
-                  label: Text('Password Confirmation'),
-                ),
-                obscureText: true,
-                onChanged: ref
-                    .read(authPasswordConfirmationProvider.notifier)
-                    .changePasswordConfirmation,
-                autovalidateMode: AutovalidateMode.onUserInteraction,
-                validator: (value) {
-                  return ref
-                      .read(authPasswordConfirmationProvider.notifier)
-                      .isValidPasswordConfirmation();
+                  return ref.read(authPasswordProvider.notifier).isValidPassword();
                 },
               ),
             ),
@@ -104,10 +65,8 @@ class RegisterScreen extends ConsumerWidget {
                 onPressed: ref.read(isValidRegisterFormProvider)
                     ? () async {
                         await register(
-                          username: username,
                           email: email,
                           password: password,
-                          passwordConfirmation: passwordConfirmation,
                           context: context,
                           ref: ref,
                         );
@@ -147,10 +106,8 @@ class RegisterScreen extends ConsumerWidget {
 }
 
 Future<void> register({
-  required String? username,
   required String? email,
   required String? password,
-  required String? passwordConfirmation,
   required BuildContext context,
   required WidgetRef ref,
 }) async {
@@ -161,10 +118,8 @@ Future<void> register({
   String? message;
 
   final register = await registerUseCase(
-    name: username ?? '',
     email: email ?? '',
     password: password ?? '',
-    passwordConfirmation: passwordConfirmation ?? '',
   );
 
   if (register.isRight()) {

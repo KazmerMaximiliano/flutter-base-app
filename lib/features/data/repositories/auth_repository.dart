@@ -14,17 +14,13 @@ class AuthRepository implements IAuthPresenter {
 
   @override
   Future<Either<CustomError, Auth>> register({
-    required String name,
     required String email,
     required String password,
-    required String passwordConfirmation,
   }) async {
     try {
       final auth = await _remoteDataSource.register(
-        name: name,
         email: email,
         password: password,
-        passwordConfirmation: passwordConfirmation,
       );
 
       return Right(auth);

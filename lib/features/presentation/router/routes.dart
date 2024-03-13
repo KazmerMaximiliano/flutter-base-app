@@ -28,7 +28,7 @@ class RegisterRoute extends GoRouteData {
 
   @override
   Widget build(BuildContext context, GoRouterState state) {
-    return const AuthLayout(child: RegisterScreen());
+    return const AuthLayout(title: "Registrarse", child: RegisterScreen());
   }
 }
 
@@ -39,7 +39,7 @@ class LoginRoute extends GoRouteData {
 
   @override
   Widget build(BuildContext context, GoRouterState state) {
-    return const AuthLayout(child: LoginScreen());
+    return const AuthLayout(title: "Iniciar sesión", child: LoginScreen());
   }
 }
 

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutterbaseapp/core/config/enviroment_config.dart';
+import 'package:flutterbaseapp/core/globals/globals.dart';
 import 'package:flutterbaseapp/features/domain/services/shared_preferences.dart';
 import 'package:flutterbaseapp/features/presentation/router/router_listenable.dart';
 import 'package:flutterbaseapp/features/presentation/router/routes.dart';
@@ -29,6 +30,7 @@ class MyApp extends ConsumerWidget {
     final routerNotifier = ref.watch(routerListenableProvider.notifier);
 
     return MaterialApp.router(
+      theme: CustomTheme.theme,
       routerConfig: GoRouter(
         refreshListenable: routerNotifier,
         initialLocation: SplashRoute.path,

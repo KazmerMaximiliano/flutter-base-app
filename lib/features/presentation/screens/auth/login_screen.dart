@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutterbaseapp/core/globals/globals.dart';
 import 'package:flutterbaseapp/features/data/models/auth_model.dart';
 import 'package:flutterbaseapp/features/domain/services/shared_preferences.dart';
 import 'package:flutterbaseapp/features/domain/usecases/auth/signin_use_case.dart';
@@ -19,66 +20,43 @@ class LoginScreen extends ConsumerWidget {
     final password = ref.watch(authPasswordProvider);
 
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 32.0),
+      padding: const EdgeInsets.fromLTRB(16, 32, 16, 0),
       child: Form(
         key: loginFormKey,
+        autovalidateMode: AutovalidateMode.onUserInteraction,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 8.0),
-              child: Text(
-                'Iniciar Sesión',
-                style: Theme.of(context).textTheme.titleLarge,
-              ),
+            SmartzoneTextField(
+              title: "MI CORREO ES",
+              hint: "Ej: micorreo@mail.com",
+              onChanged: ref.read(authEmailProvider.notifier).changeEmail,
+              keyboardType: TextInputType.emailAddress,
+              validator: (value) {
+                return ref.read(authEmailProvider.notifier).isValidEmail();
+              },
+            ),
+            const SizedBox(height: 16),
+            SmartzoneTextField(
+              title: "MI CONTRASEÑA ES",
+              obscure: true,
+              keyboardType: TextInputType.visiblePassword,
+              hint: "Contraseña",
+              onChanged: ref.read(authPasswordProvider.notifier).changePassword,
+              validator: (value) {
+                return ref.read(authPasswordProvider.notifier).isValidPassword();
+              },
             ),
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 8.0),
-              child: TextFormField(
-                decoration: const InputDecoration(
-                  label: Text('Email'),
-                ),
-                onChanged: ref.read(authEmailProvider.notifier).changeEmail,
-                autovalidateMode: AutovalidateMode.onUserInteraction,
-                validator: (value) {
-                  return ref.read(authEmailProvider.notifier).isValidEmail();
-                },
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 8.0),
-              child: TextFormField(
-                decoration: const InputDecoration(
-                  label: Text('Password'),
-                ),
-                obscureText: true,
-                onChanged: ref.read(authPasswordProvider.notifier).changePassword,
-                autovalidateMode: AutovalidateMode.onUserInteraction,
-                validator: (value) {
-                  return ref.read(authPasswordProvider.notifier).isValidPassword();
-                },
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 8.0),
-              child: ElevatedButton(
+              child: LargeButton(
+                title: 'Iniciar Sesión',
                 onPressed: ref.read(isValidLoginFormProvider)
                     ? () async {
-                        await signIn(
-                          email: email,
-                          password: password,
-                          context: context,
-                          ref: ref,
-                        );
+                        await signIn(email: email, password: password, context: context, ref: ref);
                       }
                     : null,
-                style: ButtonStyle(
-                  minimumSize: MaterialStateProperty.all(
-                    const Size(double.infinity, 42),
-                  ),
-                ),
-                child: const Text('Iniciar Sesión'),
               ),
             ),
             Padding(

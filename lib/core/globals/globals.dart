@@ -1,0 +1,12 @@
+export 'package:flutterbaseapp/core/globals/colors/smartzone_colors.dart';
+export 'package:flutterbaseapp/core/globals/core/app_core.dart';
+export 'package:flutterbaseapp/core/globals/logos/gif_logo.dart';
+export 'package:flutterbaseapp/core/globals/logos/lottie_logo.dart';
+export 'package:flutterbaseapp/core/globals/logos/png_logo.dart';
+export 'package:flutterbaseapp/core/globals/snackbar/snackbar.dart';
+export 'package:flutterbaseapp/core/globals/styles/buttons/buttons.dart';
+export 'package:flutterbaseapp/core/globals/styles/texts/texts.dart';
+export 'package:flutterbaseapp/core/globals/styles/styles.dart';
+export 'package:flutterbaseapp/core/globals/theme/custom_theme.dart';
+export 'package:flutterbaseapp/core/globals/utils/utils.dart';
+export 'package:flutterbaseapp/core/globals/widgets/widgets.dart';
